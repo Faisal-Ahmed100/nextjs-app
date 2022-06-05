@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {AiOutlineMail} from 'react-icons/ai';
-import {AiOutlineMessage} from 'react-icons/ai';
+// import {AiOutlineMessage} from 'react-icons/ai';
 
 
 
