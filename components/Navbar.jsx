@@ -63,7 +63,7 @@ const Navbar = () => {
     
       <div className='flex justify-between max-w-[1240px] mx-auto items-center w-full h-full px-3 2xl:px-16'>
         <Link href='/'>
-         <span className='text-xl text-[#5651e5] cursor-pointer'>Md.Faisal</span>
+         <span className='text-[25px] font-bold text-[#5651e5] cursor-pointer'>Md.Faisal</span>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -88,7 +88,7 @@ const Navbar = () => {
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden cursor-pointer' title='Open Menu'>
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu className='text-[#5651e5]' size={25} />
           </div>
         </div>
 
@@ -116,7 +116,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer' title='Close'
               >
-                <AiOutlineClose />
+                <AiOutlineClose className='text-[#5651e5]' />
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>

@@ -6,13 +6,16 @@ import {AiOutlineMail} from 'react-icons/ai';
 
 
 
-const Main = () => {
 
+const Main = () => {
+ 
 
   return (
   <>
+
     <div className='w-full h-screen text-center'>
 <div className="max-w-[1240px] w-full h-full flex justify-center items-center mx-auto">
+ 
   <div>
   <p className='uppercase text-sm tracking-widest text-gray-600'>
             LET&apos;S BUILD SOMETHING TOGETHER
